@@ -395,6 +395,11 @@ h4 {
   margin: 2em auto 1em;
 }
 
+.bio-box .social-link:hover {
+  background: #fff;
+  color: #000;
+}
+
 .bio-copy {
   font-size: 0.75em;
 }
@@ -448,6 +453,8 @@ h4 {
   width: 75%;
   margin: auto;
 }
+
+
 
 /* COLUMN STYLES */
 
@@ -747,4 +754,5 @@ h4 {
   .header-nav .drop-trigger:after {
     display: none;
   }
+
 }
