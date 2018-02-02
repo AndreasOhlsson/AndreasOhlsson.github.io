@@ -88,10 +88,22 @@ h2 {
 }
 h2 ~ p {
   font-size: 0.8em;
-  font-style: italic;
   margin: 1em auto 0;
+  font-style: normal;
   max-width: 70%;
   text-align: center;
+}
+
+h2 ~ ul {
+  font-size: 0.8em;
+  margin: 1em auto 0;
+  font-style: normal;
+  max-width: 70%;
+  line-height: 1.5;
+}
+
+ul > li {
+  margin: 10px 0px;
 }
 
 h4 {
@@ -404,6 +416,16 @@ h4 {
 
 .bio-copy a {
   color: green;
+}
+
+.text-container {
+  text-align: left;
+  font-style: normal;
+  max-width: 70%;
+}
+
+.skills {
+  max-width: 70%;
 }
 
 /* HOMEPAGE STYLES */
