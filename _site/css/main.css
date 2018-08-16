@@ -87,7 +87,6 @@ h2 {
   font-size: 2em;
 }
 h2 ~ p {
-  font-size: 0.8em;
   margin: 1em auto 0;
   font-style: normal;
   max-width: 70%;
@@ -95,7 +94,6 @@ h2 ~ p {
 }
 
 h2 ~ ul {
-  font-size: 0.8em;
   margin: 1em auto 0;
   font-style: normal;
   max-width: 70%;
@@ -433,6 +431,7 @@ h4 {
   margin: 6rem auto;
   max-width: 980px;
   width: 90vw;
+  font-size: 1.2em;
 }
 
 .home-section h2 {
