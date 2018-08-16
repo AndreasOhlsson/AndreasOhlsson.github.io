@@ -379,7 +379,7 @@ h4 {
 .bio-box {
   box-sizing: border-box;
   float: left;
-  font-size: 1rem;
+  font-size: 1.2rem;
   margin: 6rem 0 0;
   padding: 0 3%;
   width: 33%;
@@ -409,6 +409,7 @@ h4 {
 }
 
 .bio-copy {
+  padding-top: 1em;
   font-size: 0.75em;
 }
 
@@ -456,9 +457,13 @@ h4 {
 
 .callout-copy {
   flex: 0 0 50%;
-  font-size: 0.8rem;
+  font-size: 1rem;
   max-width: 600px;
   padding: 0 3vw;
+}
+
+.callout-copy h3 {
+  font-size: 1.5em;
 }
 
 .home-section h4 {
