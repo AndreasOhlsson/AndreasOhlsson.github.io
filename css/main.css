@@ -547,7 +547,7 @@ h4 {
   position: relative;
 }
 .gallery-photo img {
-  width: 100%;
+  max-width: 100%;
 }
 .gallery-info {
   font-size: 0.8rem;
